@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+    <!-- header starts here -->
+    <header class=" fixed w-full left-0 right-0 z-50">
+        <div class="container sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-xl mx-auto p-4">
+            <!-- navbar wraer -->
+            <div class="flex justify-between items-baseline">
+                <!-- navbar__left -->
+                <div class="hidden md:block">
+                    <nav>
+                        <ul class="flex gap-16 ">
+                            <li><a href="#" class="text-primaryTextColorDark">Home</a></li>
+                            <li><a href="#" class="text-primaryTextColorDark">About</a></li>
+                            <li><a href="#" class="text-primaryTextColorDark">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- navbar center -->
+                <div class="text-center md:w-[2/6] lg:w-[2/6] sm:text-left sm:block md:hidden lg:block">
+                    <p class="font-black text-[1.5rem] ">Landing</p>
+                </div>
+                <!-- navbar right -->
+                <div class="flex justify-end md:w-[2/6] lg:w-[2/6] ">
+                    <a href="#" class="text-white bg-primaryColor border-2 border-primaryColor  w-[10rem] sm:w-[12rem] md:w-[14rem] lg:w-[16rem] py-[0.25rem] text-center rounded">Buy
+                        Now</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- main starts here -->
+    <main>
+        <!-- banner starts here -->
+        <section class="relative h-[70vh] sm:h-[70vh] md:h-[100vh] lg:h-[100vh]">
+            <!-- banner image -->
+            <div class="absolute right-0 h-full hidden sm:hidden md:block lg:block ">
+                <figure class="h-full w-full ">
+                    <img src="../images/banner_image.png" alt="Banner Image" class="h-full">
+                </figure>
+            </div>
+            <div class="container sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-xl mx-auto px-4 h-full  ">
+                <!-- banner content -->
+                <div class="grid sm:grid md:grid lg:grid sm:grid-cols-1 lg:grid-cols-2 md:grid-cols-2 items-center sm:items-center md:items-center lg:items-center  h-full z-50 ">
+                    <!-- banner content left -->
+                    <div class="z-50">
+                        <h1 class="mb-[1.25rem] font-medium  text-xl sm:text-[2rem] md:text-[2rem] lg:text-[3rem] md:leading-[3rem] lg:leading-[4rem] text-primaryHeadingColor">
+                            Introduce Your Product Quickly & Effectively
+                        </h1>
+                        <p class="mb-[1.25rem]  text-sm sm:text-md md:text-md lg:text-lg text-primaryTextColorLight">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </p>
+                        <p class="text-sm sm:text-md md:text-md lg:text-lg text-primaryTextColorLight">mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                        </p>
+                        <!-- banner button group -->
+                        <div class="mt-[3rem] sm:mt-[3rem] md:mt-[3rem] lg:mt-[5rem]">
+                            <button class="rounded text-white bg-primaryColor border-2 border-primaryColor py-[0.25rem] w-[10rem] sm:w-[10rem] md:w-[10rem] lg:w-[16rem] sm:text-sm md:text-base lg:text-lg mr-1">Purchase
+                                UI Kit</button>
+                            <button class="rounded text-primaryColor bg-white border-2 border-primaryColor py-[0.25rem] w-[10rem] sm:w-[10rem] md:w-[10rem] lg:w-[16rem] sm:text-sm md:text-base lg:text-lg">Learn
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- service section with service list starts here -->
+        <section class="mb-[5rem] sm:mb-[5rem] md:mb-[5rem] lg:mb-[10rem]">
+            <div class="container  sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-xl mx-auto px-4">
+                <!-- service content wrapper -->
+                <div class="block md:flex lg:flex items-center sm:gap-[2rem] md:gap-[2rem] lg:gap-[2rem]">
+                    <div class="flex-1">
+                        <h2 class="text-primaryHeadingColor lg:text-[3rem] md:text-[2rem] lg:leading-[4rem] md:leading-[3rem] font-medium mb-[1.125rem]">
+                            Light, Fast & Powerful
+                        </h2>
+                        <p class="mb-[1.25rem] text-sm md:text-base lg:text-base  text-primaryTextColorLight">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </p>
+                        <p class=" text-sm md:text-base lg:text-base text-primaryTextColorLight">mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                        </p>
+                        <!-- service list wrapper -->
+                        <div class="mt-[3rem] md:mt-[2rem] lg:mt-[5rem] flex gap-[1.25rem]">
+                            <!-- service item -->
+                            <div class="flex-1">
+                                <figure class="w-[2.25rem]">
+                                    <img src="../images/service.png" alt="Service List Image">
+                                </figure>
+                                <h3 class="text-primaryHeadingColor mt-[16px] mb-[6px]">Title Goes Here</h3>
+                                <p class="text-normalTextColor text-[12px]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                            </div>
+                            <!-- service item -->
+                            <div class="flex-1 w-[50%]">
+                                <figure class="w-[2.25rem]">
+                                    <img src="../images/service.png" alt="Service List Image">
+                                </figure>
+                                <h3 class="text-primaryHeadingColor mt-[1rem] mb-[ 0.375rem]">Title Goes Here</h3>
+                                <p class="text-normalTextColor text-[0.75rem]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- service image -->
+                    <div class="flex-1 w-[70%] mx-auto">
+                        <figure>
+                            <img src="../images/section2Image.png" alt="Service Image">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- service wrapper starts here -->
+        <section class="mb-[5rem] sm:mb-[5rem] md:mb-[5rem] lg:mb-[10rem]">
+            <div class="container sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-xl mx-auto px-4">
+                <!-- service wrapper -->
+                <div class="block sm:block md:flex lg:flex items-center justify-between sm:gap-[2rem] md:gap-[5rem] lg:gap-[16rem]">
+                    <div class="flex-1 w-[70%] mx-auto mb-5">
+                        <figure>
+                            <img src="../images/section3Image.png" alt="Service Image">
+                        </figure>
+                    </div>
+                    <!-- service content -->
+                    <div class="flex-1">
+                        <h2 class="text-primaryHeadingColor md:text-[2rem]  lg:text-[3rem]  md:leading-[3rem] lg:leading-[4rem] font-medium mb-[1.125rem]">
+                            Light, Fast & Powerful</h2>
+                        <p class="text-primaryTextColorLight mb-[1.25rem] text-sm sm:text-sm md:text-base lg:text-base">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </p>
+                        <p class="text-primaryTextColorLight text-sm sm:text-sm md:text-base lg:text-base">mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- service wrapper starts here -->
+        <section class="mb-[5rem] sm:mb-[5rem] md:mb-[5rem] lg:mb-[10rem]">
+            <div class="container sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-xl mx-auto px-4">
+                <!-- service wrapper -->
+                <div class="block sm:block md:flex lg:flex items-center justify-between sm:gap-[2rem] md:gap-[5rem] lg:gap-[16rem]">
+                    <div class="flex-1 w-[70%] mx-auto mb-5">
+                        <figure>
+                            <img src="../images/section4Image.png" alt="Service Image">
+                        </figure>
+                    </div>
+                    <!-- service content -->
+                    <div class="flex-1">
+                        <h2 class="text-primaryHeadingColor md:text-[2rem] lg:text-[3rem] md:leading-[3rem] lg:leading-[4rem] font-medium mb-[18px]">
+                            Light, Fast & Powerful</h2>
+                        <p class="text-primaryTextColorLight mb-[1.25rem] sm:text-sm md:text-base lg:text-base">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </p>
+                        <p class="text-primaryTextColorLight  sm:text-sm md:text-base lg:text-base">mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- service wrapper starts here -->
+        <section class="mb-[5rem] sm:mb-[5rem] md:mb-[5rem] lg:mb-[10rem]">
+            <div class="container sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-xl mx-auto px-4">
+                <!-- service wrapper -->
+                <div class="block sm:block md:flex lg:flex items-center justify-between sm:gap-[2rem] md:gap-[5rem] lg:gap-[16rem]">
+                    <div class="flex-1 w-[70%] mx-auto mb-5">
+                        <figure>
+                            <img src="../images/section5Image.png" alt="Service Image">
+                        </figure>
+                    </div>
+                    <!-- service content -->
+                    <div class="flex-1">
+                        <h2 class="text-primaryHeadingColor lg:text-[3rem] md:text-[2rem] lg:leading-[4rem] md:leading-[3rem] font-medium mb-[18px]">
+                            Light, Fast & Powerful</h2>
+                        <p class="text-primaryTextColorLight mb-[1.25rem]  sm:text-sm md:text-base lg:text-base">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </p>
+                        <p class="text-primaryTextColorLight sm:text-sm md:text-base lg:text-base">mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                        </p>
+                        <button class="rounded text-white bg-primaryColor border-2 border-primaryColor py-[0.25rem] w-[10rem] sm:w-[10rem] md:w-[12rem] lg:w-[16rem]  sm:text-sm md:text-base  lg:text-lg mt-10">Purchase
+                            UI Kit</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- product__priceWrapper -->
+        <section class="relative">
+            <!-- service image background -->
+            <div class="absolute left-0 right-0 w-full z-[-1]">
+                <figure>
+                    <img src="../images/footer_image.png" alt="Footer Background Image" class="w-full h-[900px]">
+                </figure>
+            </div>
+            <div class="container sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-xl mx-auto px-4 z-50">
+                <!-- product price content -->
+                <div class="py-[12rem] text-center">
+                    <h2 class="text-primaryHeadingColor text-2xl sm:text-2xl lg:text-4xl md:text-3xl md:leading-[3rem] lg:leading-[4rem] font-medium mb-[1.25rem]">
+                        A Price To Suit Everyone</h2>
+                    <p class="text-primaryTextColorLight text-sm lg:text-xl md:text-md sm:text-sm w-[100%] md:w-[60%] lg:w-[60%] mx-[auto] mb-[35px]">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                    </p>
+                    <strong class="block text-2xl sm:text-4xl md:text-6xl lg:text-6xl  md:leading-[3rem] lg:leading-[4rem] font-medium">$40</strong>
+                    <span class=" text-primaryTextColorLight font-normal mb-[60px] block ">UI Design Kit</span>
+                    <div class="bottom_content text-center  ">
+                        <p class="text-primaryTextColorLight text-[14px] font-normal mb-[10px] ">See, One price. Simple.
+                        </p>
+                        <button class="rounded text-white bg-primaryColor border-2 border-primaryColor py-[0.25rem] w-[10rem] sm:w-[10rem] md:w-[12rem] lg:w-[16rem] lg:text-lg md:text-base sm:text-sm">Purchase
+                            UI Kit</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer starts here -->
+    <footer>
+        <section class="bg-footerColor pt-16 footer--wrapper">
+            <div class="container px-4 mx-auto sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-xl">
+                <!-- footer short info -->
+                <div class="pb-10 border-b-[0.125rem] border-borderColor ">
+                    <div class="flex justify-between items-center ">
+                        <p><span class="text-footerTextColor text-sm">©2023 Yourcompany</span></p>
+                        <h2><span class="font-black text-2xl  hidden sm:hidden md:hidden lg:block ">Landing</span></h2>
+                        <button class="rounded text-white bg-primaryColor border-2 border-primaryColor py-[0.25rem] w-[10rem] sm:w-[10rem] md:w-[12rem] lg:w-[16rem] lg:text-lg md:text-base sm:text-sm">Purchase
+                            UI Kit</button>
+                    </div>
+                </div>
+                <!-- footer links -->
+                <div class="flex justify-between items-center flex-col md:flex-row">
+                    <!-- footer nav links -->
+                    <ul class=" flex  gap-16 py-5">
+                        <li><a href="#" class="text-sm text-footerTextColor">Home</a></li>
+                        <li><a href="#" class="text-sm text-footerTextColor">About</a></li>
+                        <li><a href="#" class="text-sm text-footerTextColor">Contact</a></li>
+                    </ul>
+                    <!-- footer social media links -->
+                    <ul class=" flex gap-[2rem] py-5">
+                        <li>
+                            <a href="#" class="text-md text-footerTextColor">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-md text-footerTextColor">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-md text-footerTextColor">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-md text-footerTextColor">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-md text-footerTextColor">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- fontawsome icons js -->
+    <script src="https://kit.fontawesome.com/7ac263837c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
